@@ -1,0 +1,42 @@
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 25px;
+    background-color: red;
+}
+a{
+    font-size: 1.5em;
+    margin: 10px;
+    color: aliceblue;
+    border: 3px solid blue;
+}
+li{
+   margin: auto;
+   text-align: center; 
+   text-decoration: none;
+   list-style: none;
+   position: relative;
+}
+.hide{
+    position: absolute;
+   display: none;
+}
+
+.this{
+    margin: 25px;
+    border: 2px solid red;
+    padding: 10px;
+}
+.show{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%; height: 600px;
+    overflow: scroll;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
